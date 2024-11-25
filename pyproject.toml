@@ -1,0 +1,11 @@
+[project]
+name = "1688-automation"
+version = "0.0.1"
+description = "Automation tools for 1688.com"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "playwright>=1.49.0",
+]
